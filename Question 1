@@ -1,0 +1,11 @@
+class Solution
+{
+    public static void main(String arg[])
+    {
+        for(float x=-10f;x<=10;x += 0.5) 
+        {
+            float y =  x* x;
+            System.out.println("X  =  " + x + " and y = " + y);
+        }
+    }
+}
